@@ -1,0 +1,6 @@
+a = 'CONVERSOR DE MOEDAS'
+b = 'FIM DO CÓDIGO'
+print(f'{a:-^45}')
+s = float(input('Quantos R$ você quer converter? \nR$: '))
+print(f'$: {s / 5.63:.2f}; \n€: {s / 6.23:.2f}.')
+print(f'{b:-^45}')
