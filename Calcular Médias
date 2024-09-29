@@ -1,0 +1,6 @@
+a = ('CALCULAR MÉDIAS')
+print(f'{a:-^40}')
+b = float(input('Digite um valor: '))
+c = float(input('Digite outro valor: '))
+d = (b + c) / 2
+print(f'A média entre {b} e {c} é {d}.')
