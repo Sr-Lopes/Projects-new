@@ -1,0 +1,11 @@
+a = ('CONVERSOR DE METROS')
+
+f = ('FIM DO CÓDIGO')
+
+print(f'{a:-^45}')
+
+b = float(input('Quantos metros você quer converter? \nEm metros: '))
+
+print(f'Em centimetros: {b * 100}; \nEm milimetros: {b * 1000}.')
+
+print(f'{f:-^45}')
