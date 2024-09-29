@@ -1,0 +1,6 @@
+a = '% APLICAR DESCONTO %'
+print(f'{a:^45}')
+b = int(input('Quantos % de desconto: '))
+p = float(input('Qual o preço? '))
+c = p * b / 100
+print(f'O preço com {b} % de desconto é: {p - c}')
